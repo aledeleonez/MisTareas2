@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">MisTareas2</string>
+    <string name="button_hechas">Hechas</string>
+    <string name="button_pendientes">Pendientes</string>
+    <string name="title_activity_nueva_tarea">NuevaTarea</string>
+    <string name="text_nombre">Nombre</string>
+    <string name="text_desc">Descripción</string>
+    <string name="text_fecha">Fecha</string>
+    <string name="text_prio">Prioridad</string>
+    <string name="text_coste">Coste</string>
+    
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>
