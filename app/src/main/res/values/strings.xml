@@ -11,6 +11,8 @@
     <string name="button_volver">Volver</string>
     <string name="button_registrar">Registrar</string>
     <string name="button_cancelar">Cancelar</string>
+    <string name="titulo1">Lista de Tareas</string>
+    <string name="titulo2">Nueva Tarea</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
