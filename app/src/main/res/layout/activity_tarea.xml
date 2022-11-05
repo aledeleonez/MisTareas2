@@ -7,11 +7,12 @@
     tools:context=".Tarea">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:id="@+id/linearLayout3"
+        android:layout_width="412dp"
+        android:layout_height="648dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-1dp">
 
         <TextView
             android:id="@+id/text_Tarea"
@@ -44,4 +45,14 @@
             android:layout_height="wrap_content"
             android:text="TextView" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button_volver"
+        android:layout_width="389dp"
+        android:layout_height="46dp"
+        android:text="@string/button_volver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
