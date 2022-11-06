@@ -101,7 +101,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_registrar"
             style="@android:style/ButtonBar"
             android:layout_width="wrap_content"
             android:layout_height="70dp"
@@ -109,7 +109,7 @@
             android:text="@string/button_registrar" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/button_cancelar"
             style="@android:style/ButtonBar"
             android:layout_width="wrap_content"
             android:layout_height="70dp"

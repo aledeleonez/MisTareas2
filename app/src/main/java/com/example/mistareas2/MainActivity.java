@@ -14,15 +14,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent intent = getIntent();
-        String nombre = intent.getStringExtra(NuevaTarea.NOMBRE_REPLY);
-        String descripcion = intent.getStringExtra(NuevaTarea.DESC_REPLY);
-        String fecha = intent.getStringExtra(NuevaTarea.FECHA_REPLY);
-        String prioridad = intent.getStringExtra(NuevaTarea.PRIO_REPLY);
-        String coste = intent.getStringExtra(NuevaTarea.COSTE_REPLY);
-    }
+        ListView listaTareas = (ListView) findViewById(R.id.listaTareas);
+        Bundle bundle = getIntent().getExtras();
+        listaTareas.setTe
 
-    private void nuevaTarea(){
+
 
     }
 }
