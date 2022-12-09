@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         ListView listaTareas = (ListView) findViewById(R.id.listaTareas);
         Bundle bundle = getIntent().getExtras();
-        listaTareas.setTe
+        listaTareas.
 
 
 
